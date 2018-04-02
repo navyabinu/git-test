@@ -1,0 +1,32 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "\"this is a test directory to learn git and node\"",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "https://github.com/navyabinu/test.git",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navyabinu/git-test.git"
+  },
+  "author": "Navya Binu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/navyabinu/git-test/issues"
+  },
+  "homepage": "https://github.com/navyabinu/git-test#readme",
+  "keywords": [
+    "this",
+    "is",
+    "a",
+    "test",
+    "directory"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
